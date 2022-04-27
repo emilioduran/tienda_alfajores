@@ -40,7 +40,13 @@ body {
 }
 
 .navbar .menu a:hover {
-    color: black;
+    background-color: black;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    text-shadow: none;
 }
 
 .navbar .menu-bar {
@@ -150,6 +156,17 @@ body {
 .footer .maps .fa-solid {
     font-size: 1.5em;
     margin-right: 15px;
+    color: white;
+}
+
+.footer .maps .fa-solid:hover {
+    background-color: black;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    text-shadow: none;
 }
 
 .footer .follow-me {
@@ -159,4 +176,16 @@ body {
 
 .footer .social-network .fa-brands {
     font-size: 1.5em;
+    color: white;
+}
+
+.footer .social-network .fa-brands:hover {
+    background-color: black;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    text-shadow: none;
+
 }
