@@ -2,3 +2,8 @@
   background-color: white; }
   .footer img {
     border-radius: 20px; }
+
+.main {
+  background-color: white; }
+  .main h1 {
+    color: red; }
